@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Virtual Keyboard</title>
+</head>
+
+<body>
+    <div class="wrapper">
+<h2>QWERTY Keyboard</h2>
+
+<div class="textarea-wrapper">
+    <textarea class="text" type="text" name="display" id="display"></textarea>
+    ​
+</div>
+<div class="keyboard">
+    <div class="kb1">
+        <button class="button" id="1" onclick="buttonClick(this.id)">1</button>
+        <button class="button" id="2" onclick="buttonClick(this.id)">2</button>
+        <button class="button" id="3" onclick="buttonClick(this.id)">3</button>
+        <button class="button" id="4" onclick="buttonClick(this.id)">4</button>
+        <button class="button" id="5" onclick="buttonClick(this.id)">5</button>
+        <button class="button" id="6" onclick="buttonClick(this.id)">6</button>
+        <button class="button" id="7" onclick="buttonClick(this.id)">7</button>
+        <button class="button" id="8" onclick="buttonClick(this.id)">8</button>
+        <button class="button" id="9" onclick="buttonClick(this.id)">9</button>
+        <button class="button" id="0" onclick="buttonClick(this.id)">0</button>
+        <button class="button" id="q" onclick="buttonClick(this.id)">q</button>
+        <button class="button" id="w" onclick="buttonClick(this.id)">w</button>
+        <button class="button" id="e" onclick="buttonClick(this.id)">e</button>
+        <button class="button" id="r" onclick="buttonClick(this.id)">r</button>
+        <button class="button" id="t" onclick="buttonClick(this.id)">t</button>
+        <button class="button" id="y" onclick="buttonClick(this.id)">y</button>
+        <button class="button" id="u" onclick="buttonClick(this.id)">u</button>
+        <button class="button" id="i" onclick="buttonClick(this.id)">i</button>
+        <button class="button" id="o" onclick="buttonClick(this.id)">o</button>
+        <button class="button" id="p" onclick="buttonClick(this.id)">p</button>
+        <button class="button2 backspace" id="backSpace" onclick="backSpace(this.id)">Back Space</button>
+    </div>
+    <div class="kb2">
+        <button class="button" id="a" onclick="buttonClick(this.id)">a</button>
+        <button class="button" id="s" onclick="buttonClick(this.id)">s</button>
+        <button class="button" id="d" onclick="buttonClick(this.id)">d</button>
+        <button class="button" id="f" onclick="buttonClick(this.id)">f</button>
+        <button class="button" id="g" onclick="buttonClick(this.id)">g</button>
+        <button class="button" id="h" onclick="buttonClick(this.id)">h</button>
+        <button class="button" id="j" onclick="buttonClick(this.id)">j</button>
+        <button class="button" id="k" onclick="buttonClick(this.id)">k</button>
+        <button class="button" id="l" onclick="buttonClick(this.id)">l</button>
+        <button class="button" id="z" onclick="buttonClick(this.id)">z</button>
+        <button class="button" id="x" onclick="buttonClick(this.id)">x</button>
+        <button class="button" id="c" onclick="buttonClick(this.id)">c</button>
+        <button class="button" id="v" onclick="buttonClick(this.id)">v</button>
+        <button class="button" id="b" onclick="buttonClick(this.id)">b</button>
+        <button class="button" id="n" onclick="buttonClick(this.id)">n</button>
+        <button class="button" id="m" onclick="buttonClick(this.id)">m</button>
+        <button class="button" id="-" onclick="buttonClick(this.id)">-</button>
+        <button class="button" id="_" onclick="buttonClick(this.id)">_</button>
+        <button class="button2 capslock" id="capsLock" onclick="capsLockButton(this.id)">Caps Lock</button>
+        <button class="button2 shift" id="shift" onclick="shiftButton(this.id)">Shift</button>
+    </div>
+    <div class="kb3">
+        <button class="button2 space" id="space" onclick="spaceButton(this.id)">Space</button>
+        <button class="button2 ok" id="ok" onclick="okButton(this.id)">OK</button>
+    </div>
+</div>
+
+    </div>
+   
+    <script src="./index.js"></script>
+</body>
+
+</html>
