@@ -11,10 +11,10 @@
 
 <body>
     <div class="wrapper">
-<h2>QWERTY Keyboard</h2>
+<h2>Keyboard <span>QWERTY</span></h2>
 
 <div class="textarea-wrapper">
-    <textarea class="text" type="text" name="display" id="display"></textarea>
+    <textarea class="text" type="text" name="display" id="display"  height="300px"></textarea>
     ​
 </div>
 <div class="keyboard">
@@ -39,7 +39,9 @@
         <button class="button" id="i" onclick="buttonClick(this.id)">i</button>
         <button class="button" id="o" onclick="buttonClick(this.id)">o</button>
         <button class="button" id="p" onclick="buttonClick(this.id)">p</button>
-        <button class="button2 backspace" id="backSpace" onclick="backSpace(this.id)">Back Space</button>
+        <button class="button2 backspace" id="backSpace" onclick="specialButton(id)">Back Space</button>
+        <button class="button2" id="capsLock" onclick="specialButton(this.id)">Caps Lock</button>
+        
     </div>
     <div class="kb2">
         <button class="button" id="a" onclick="buttonClick(this.id)">a</button>
@@ -60,12 +62,12 @@
         <button class="button" id="m" onclick="buttonClick(this.id)">m</button>
         <button class="button" id="-" onclick="buttonClick(this.id)">-</button>
         <button class="button" id="_" onclick="buttonClick(this.id)">_</button>
-        <button class="button2 capslock" id="capsLock" onclick="capsLockButton(this.id)">Caps Lock</button>
-        <button class="button2 shift" id="shift" onclick="shiftButton(this.id)">Shift</button>
+        <button class="button2" id="enter" onclick="specialButton(this.id)">Enter</button>
+        <button class="button2" id="shift" onclick="specialButton(this.id)">Shift</button>
     </div>
     <div class="kb3">
-        <button class="button2 space" id="space" onclick="spaceButton(this.id)">Space</button>
-        <button class="button2 ok" id="ok" onclick="okButton(this.id)">OK</button>
+        <button class="button2" id="space" onclick="specialButton(this.id)">Space</button>
+        <button class="button2" type='submit' id="submit" onclick="specialButton(this.id)">OK</button>
     </div>
 </div>
 
