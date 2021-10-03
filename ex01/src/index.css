@@ -37,7 +37,7 @@ span {
   max-width: 770px;
   width: 100%;
   margin: auto;
-  height: 250px;
+  height: 350px;
 }
 
 textarea {
@@ -63,11 +63,14 @@ textarea {
 .kb1,
 .kb2 {
   display: grid;
+  height: 90px;
+  width: 100%;
   grid-template-columns: repeat(10, 1fr) 1.5fr;
   grid-template-rows: repeat(2, 1fr);
 }
 
 .kb3 {
+  height: 40px;
   display: grid;
   grid-template-columns: 3.6fr 1fr;
 }

@@ -4,16 +4,15 @@ const textArea = document.getElementById("display");
 const capsLock = document.getElementById("capsLock");
 const shift = document.getElementById("shift");
 
-console.log(button2);
 let text = "";
 
 //Change a character on specific breakpoint
 
 var viewportWidth = window.innerWidth || document.documentElement.clientWidth;
+
 if (viewportWidth < 700) {
   button2[0].innerHTML = "&larr;";
   button2[1].innerHTML = "&#8682;";
-} else {
 }
 
 window.addEventListener(
